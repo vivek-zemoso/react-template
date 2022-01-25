@@ -6,7 +6,6 @@ const Counter = () => {
   const [lock, setLock] = useState(true);
 
   useEffect(() => {
-    console.log("I will only run when lock is changed !!");
     console.log(lock);
   }, [lock]);
 
