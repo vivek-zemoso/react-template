@@ -1,0 +1,47 @@
+li.todo {
+  list-style: none;
+  padding-inline-start: none;
+  font-size: 1.5rem;
+  text-align: center;
+  color: beige;
+  background-color: black;
+  padding: 1rem 0;
+}
+
+li.todo:nth-child(even) {
+  color: black;
+  background-color: beige;
+}
+
+.todo span {
+  margin: 1rem;
+}
+
+.todo input {
+  min-width: 500px;
+  font-size: 1.5rem;
+  border: none;
+  text-transform: capitalize;
+  color: beige;
+  background-color: black;
+}
+
+.todo:nth-child(even) input {
+  color: black;
+  background-color: beige;
+}
+
+i.fa {
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: transform 400ms;
+}
+
+i.fa:hover {
+  transform: translate(0, -5px);
+  transition: transform 400ms;
+}
+
+form.todo-input-field {
+  display: inline;
+}

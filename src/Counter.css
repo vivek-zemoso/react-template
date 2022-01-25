@@ -1,5 +1,7 @@
-div.wrapper{
-  margin: 2rem;
+div.wrapper {
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 button {

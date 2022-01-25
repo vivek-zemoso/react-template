@@ -1,0 +1,21 @@
+.add-todo input {
+  /* min-width: 500px; */
+  font-size: 1.5rem;
+  border: none;
+  text-transform: capitalize;
+  color: black;
+  background-color: beige;
+  padding: 1rem 0.5rem;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.add-todo button {
+  width: 20%;
+  padding: 0.5rem auto;
+  margin-right: 0;
+  box-sizing: border-box;
+  color: beige;
+  background-color: rgb(83, 83, 83);
+  border-radius: 0px;
+}
